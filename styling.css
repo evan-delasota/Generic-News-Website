@@ -105,3 +105,12 @@ body {
 .dropdown-sports {
     background-color: #A29BFE;
 }
+
+span {
+  opacity: 0;
+  transition: all 0.5s ease;
+}
+
+span.fade {
+  opacity: 1;
+}
